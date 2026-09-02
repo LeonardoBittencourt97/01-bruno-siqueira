@@ -64,7 +64,7 @@ export default function Hero() {
 
           <div className="flex items-center gap-2 text-sm text-text-mute">
             <Star size={14} weight="fill" className="text-accent" />
-            <span>5,0 com 11+ avaliações no Google</span>
+            <span>5,0 com 111+ avaliações no Google</span>
           </div>
         </div>
 

@@ -3,7 +3,7 @@ import { EASE_OUT } from '../lib/motion'
 
 const NUMBERS = [
   { value: '5,0', label: 'Avaliação no Google' },
-  { value: '11+', label: 'Avaliações reais' },
+  { value: '111+', label: 'Avaliações reais' },
   { value: '5', label: 'Áreas de atuação' },
   { value: 'Curitiba', label: 'Centro - PR' },
 ]

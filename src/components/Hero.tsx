@@ -69,11 +69,11 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center">
-          <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-2xl overflow-hidden bg-bg-navy">
+          <div className="relative w-full max-w-[460px] aspect-[3/4] rounded-2xl overflow-hidden bg-bg-navy">
             <img
               src="/hall.jpg"
               alt="Logo do escritório Bruno Siqueira e vista do hall de entrada no Edifício Maurício Caillet, Centro de Curitiba"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
               loading="eager"
             />
           </div>

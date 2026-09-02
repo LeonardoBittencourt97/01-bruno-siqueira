@@ -33,8 +33,8 @@ export default function Navbar() {
       <header
         className={`fixed top-6 left-1/2 z-50 -translate-x-1/2 w-[calc(100%-2rem)] max-w-[720px] rounded-full border transition-all duration-300 ${
           scrolled || open
-            ? 'bg-black/80 backdrop-blur-3xl border-white/10'
-            : 'bg-black/60 backdrop-blur-2xl border-white/10'
+            ? 'bg-bg-navy/90 backdrop-blur-3xl border-white/10'
+            : 'bg-bg-navy/60 backdrop-blur-2xl border-white/10'
         }`}
         style={{ transitionTimingFunction: EASE_OUT }}
       >
@@ -116,7 +116,7 @@ export default function Navbar() {
 
       {open && (
         <div
-          className="fixed inset-0 z-40 bg-black/80 backdrop-blur-3xl flex flex-col items-center justify-center gap-8"
+          className="fixed inset-0 z-40 bg-bg-navy/90 backdrop-blur-3xl flex flex-col items-center justify-center gap-8"
           role="dialog"
           aria-modal="true"
         >

@@ -14,6 +14,69 @@ body {
   text-wrap: pretty;
 }
 
+/* ── Geometric section backgrounds ── */
+
+/* Diagonal stripes — subtle navy lines on dark base */
+.bg-stripes-diagonal {
+  background-color: #0A0E1A;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 40px,
+    rgba(201, 169, 97, 0.04) 40px,
+    rgba(201, 169, 97, 0.04) 41px
+  );
+}
+
+/* Crosshatch — two-directional fine lines */
+.bg-stripes-crosshatch {
+  background-color: #12151F;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 60px,
+      rgba(255, 255, 255, 0.02) 60px,
+      rgba(255, 255, 255, 0.02) 61px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 60px,
+      rgba(255, 255, 255, 0.02) 60px,
+      rgba(255, 255, 255, 0.02) 61px
+    );
+}
+
+/* Vertical pinstripes */
+.bg-stripes-vertical {
+  background-color: #181B28;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 80px,
+    rgba(201, 169, 97, 0.03) 80px,
+    rgba(201, 169, 97, 0.03) 81px
+  );
+}
+
+/* Angled thick + thin stripes */
+.bg-stripes-angled {
+  background-color: #0D1120;
+  background-image: repeating-linear-gradient(
+    -30deg,
+    transparent,
+    transparent 100px,
+    rgba(255, 255, 255, 0.015) 100px,
+    rgba(255, 255, 255, 0.015) 102px
+  );
+}
+
+/* Solid dark with subtle top gradient fade */
+.bg-section-alt {
+  background-color: #0F1219;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

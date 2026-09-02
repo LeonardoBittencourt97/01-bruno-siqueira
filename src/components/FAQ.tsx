@@ -42,7 +42,7 @@ export default function FAQ() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="faq" className="py-24 md:py-32">
+    <section id="faq" className="py-24 md:py-32 bg-stripes-vertical">
       <div ref={ref} className="mx-auto max-w-3xl px-6">
         <div
           className="transition-all duration-800"
@@ -87,7 +87,7 @@ function FAQItem({
 
   return (
     <div
-      className="rounded-2xl bg-bg-elev2 transition-all duration-600"
+      className="rounded-2xl bg-bg-charcoal/80 transition-all duration-600"
       style={{
         transitionTimingFunction: EASE_OUT,
         opacity: visible ? 1 : 0,

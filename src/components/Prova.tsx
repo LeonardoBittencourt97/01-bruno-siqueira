@@ -45,7 +45,7 @@ export default function Prova() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="depoimentos" className="py-24 md:py-32">
+    <section id="depoimentos" className="py-24 md:py-32 bg-stripes-diagonal">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
         <div
           className="transition-all duration-800"
@@ -63,7 +63,7 @@ export default function Prova() {
             {TESTIMONIALS.map((t, i) => (
               <article
                 key={t.name}
-                className="rounded-2xl bg-bg-elev2 p-6 transition-all duration-600"
+                className="rounded-2xl bg-bg-charcoal/80 p-6 transition-all duration-600"
                 style={{
                   transitionTimingFunction: EASE_OUT,
                   opacity: visible ? 1 : 0,

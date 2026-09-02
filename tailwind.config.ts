@@ -7,6 +7,9 @@ export default {
     extend: {
       colors: {
         bg: '#000000',
+        'bg-navy': '#0A0E1A',
+        'bg-slate': '#12151F',
+        'bg-charcoal': '#181B28',
         'bg-elev1': '#181818',
         'bg-elev2': '#1F1F1F',
         'bg-elev3': '#272727',

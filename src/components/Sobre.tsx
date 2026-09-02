@@ -5,7 +5,7 @@ export default function Sobre() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="sobre" className="py-24 md:py-32">
+    <section id="sobre" className="py-24 md:py-32 bg-section-alt">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
         <div
           className="grid md:grid-cols-2 gap-12 md:gap-16 items-center transition-all duration-800"
@@ -15,7 +15,7 @@ export default function Sobre() {
             transitionTimingFunction: EASE_OUT,
           }}
         >
-          <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-bg-elev1">
+          <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-bg-navy">
             <img
               src="/equipe.jpg"
               alt="Equipe e setup do escritório de advocacia Bruno Siqueira"

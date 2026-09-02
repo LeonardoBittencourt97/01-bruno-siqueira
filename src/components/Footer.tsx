@@ -5,7 +5,7 @@ const WHATSAPP_URL =
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5">
+    <footer className="border-t border-white/5 bg-bg-navy">
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
@@ -67,7 +67,7 @@ export default function Footer() {
                 href="https://www.instagram.com/advocaciabrunosiqueira/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-bg-elev2 text-text-mute transition-all duration-200 hover:text-accent hover:bg-bg-elev3"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-bg-charcoal text-text-mute transition-all duration-200 hover:text-accent hover:bg-bg-elev3"
                 aria-label="Instagram"
               >
                 <InstagramLogo size={18} weight="regular" />
@@ -76,7 +76,7 @@ export default function Footer() {
                 href="https://www.facebook.com/AdvocaciaBrunoSiqueira"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-bg-elev2 text-text-mute transition-all duration-200 hover:text-accent hover:bg-bg-elev3"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-bg-charcoal text-text-mute transition-all duration-200 hover:text-accent hover:bg-bg-elev3"
                 aria-label="Facebook"
               >
                 <FacebookLogo size={18} weight="regular" />
@@ -85,7 +85,7 @@ export default function Footer() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-bg-elev2 text-text-mute transition-all duration-200 hover:text-accent hover:bg-bg-elev3"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-bg-charcoal text-text-mute transition-all duration-200 hover:text-accent hover:bg-bg-elev3"
                 aria-label="WhatsApp"
               >
                 <WhatsappLogo size={18} weight="fill" />

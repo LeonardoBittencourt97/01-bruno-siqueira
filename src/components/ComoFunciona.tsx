@@ -23,7 +23,7 @@ export default function ComoFunciona() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="como-funciona" className="py-24 md:py-32">
+    <section id="como-funciona" className="py-24 md:py-32 bg-stripes-angled">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
         <div
           className="transition-all duration-800"
@@ -41,7 +41,7 @@ export default function ComoFunciona() {
             {STEPS.map((step, i) => (
               <div
                 key={step.num}
-                className="relative rounded-2xl bg-bg-elev2 p-6 transition-all duration-600"
+                className="relative rounded-2xl bg-bg-charcoal/80 p-6 transition-all duration-600"
                 style={{
                   transitionTimingFunction: EASE_OUT,
                   opacity: visible ? 1 : 0,

@@ -12,7 +12,7 @@ export default function Numeros() {
   const { ref, visible } = useReveal()
 
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-24 md:py-32 bg-stripes-crosshatch">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
         <div
           className="grid grid-cols-2 md:grid-cols-4 gap-8 transition-all duration-800"

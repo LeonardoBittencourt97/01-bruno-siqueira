@@ -9,10 +9,10 @@ export default function CTAFinal() {
   const { ref, visible } = useReveal()
 
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-24 md:py-32 bg-stripes-angled">
       <div ref={ref} className="mx-auto max-w-3xl px-6">
         <div
-          className="rounded-2xl bg-bg-elev1 p-8 md:p-12 text-center transition-all duration-800"
+          className="rounded-2xl bg-bg-slate p-8 md:p-12 text-center transition-all duration-800"
           style={{
             opacity: visible ? 1 : 0,
             transform: visible ? 'translateY(0) scale(1)' : 'translateY(40px) scale(0.97)',

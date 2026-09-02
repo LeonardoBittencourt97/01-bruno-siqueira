@@ -9,7 +9,7 @@ export default function Hero() {
   const { ref, visible } = useReveal(0.1)
 
   return (
-    <section className="relative min-h-screen flex items-center pt-32 pb-24 md:pt-40 md:pb-32">
+    <section className="relative min-h-screen flex items-center pt-32 pb-24 md:pt-40 md:pb-32 bg-stripes-diagonal">
       <div
         ref={ref}
         className="mx-auto w-full max-w-7xl px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center transition-all duration-800"
@@ -69,7 +69,7 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center">
-          <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-2xl overflow-hidden bg-bg-elev1">
+          <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-2xl overflow-hidden bg-bg-navy">
             <img
               src="/hall.jpg"
               alt="Logo do escritório Bruno Siqueira e vista do hall de entrada no Edifício Maurício Caillet, Centro de Curitiba"

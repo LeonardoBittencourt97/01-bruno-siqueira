@@ -34,7 +34,7 @@ export default function Areas() {
   const { ref, visible } = useReveal()
 
   return (
-    <section id="areas" className="py-24 md:py-32">
+    <section id="areas" className="py-24 md:py-32 bg-stripes-vertical">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
         <div
           className="transition-all duration-800"
@@ -72,7 +72,7 @@ function AreaCard({
 }) {
   return (
     <article
-      className="group rounded-2xl bg-bg-elev2 p-6 transition-all duration-200 hover:bg-bg-elev3 hover:-translate-y-0.5"
+      className="group rounded-2xl bg-bg-charcoal/80 p-6 transition-all duration-200 hover:bg-bg-elev3 hover:-translate-y-0.5"
       style={{
         transitionTimingFunction: EASE_OUT,
         opacity: visible ? 1 : 0,
@@ -81,7 +81,7 @@ function AreaCard({
       }}
       tabIndex={0}
     >
-      <div className="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-bg-elev3 text-accent transition-all duration-200 group-hover:scale-110 group-hover:text-accent-2">
+      <div className="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-bg-elev3/80 text-accent transition-all duration-200 group-hover:scale-110 group-hover:text-accent-2">
         <Icon size={24} weight="regular" />
       </div>
       <h3 className="text-lg font-semibold mb-2">{title}</h3>

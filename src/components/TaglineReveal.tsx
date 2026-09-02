@@ -10,7 +10,7 @@ export default function TaglineReveal() {
   const { containerRef, activeCount, registerWord } = useWordReveal()
 
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-24 md:py-32 bg-stripes-crosshatch">
       <div
         ref={containerRef}
         className="mx-auto max-w-4xl px-6 text-center"

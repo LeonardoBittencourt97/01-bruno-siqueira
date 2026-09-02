@@ -31,9 +31,9 @@ export default function Hero() {
               color: 'transparent',
             }}
           >
-            Defendemos seus direitos<br />
-            com estratégia, ética<br />
-            e atendimento de gente.
+            Advocacia de verdade.<br />
+            Com estratégia, sem<br />
+            complicação.
           </h1>
 
           <p className="text-lg md:text-xl text-text-mute max-w-[680px] mb-8">

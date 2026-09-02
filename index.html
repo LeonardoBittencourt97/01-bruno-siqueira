@@ -6,25 +6,50 @@
     <title>Escritório de Advocacia Bruno Siqueira | Advogado em Curitiba</title>
     <meta name="description" content="Escritório de advocacia em Curitiba, Centro. Direito do Trabalho, Penal Militar, Família, Cível e Criminal. Nota 5,0 no Google com mais de 111 avaliações." />
     <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://advocaciabrunosiqueira.com/" />
+
+    <!-- Geo meta tags -->
+    <meta name="geo.region" content="PR" />
+    <meta name="geo.placename" content="Curitiba" />
+    <meta name="geo.position" content="-25.4284;-49.2733" />
+    <meta name="ICBM" content="-25.4284, -49.2733" />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Escritório de Advocacia Bruno Siqueira | Advogado em Curitiba" />
     <meta property="og:description" content="Escritório de advocacia em Curitiba, Centro. Direito do Trabalho, Penal Militar, Família, Cível e Criminal. Nota 5,0 no Google." />
-    <meta property="og:image" content="/hall.jpg" />
+    <meta property="og:image" content="https://advocaciabrunosiqueira.com/hall.jpg" />
+    <meta property="og:url" content="https://advocaciabrunosiqueira.com/" />
     <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Escritório de Advocacia Bruno Siqueira" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Escritório de Advocacia Bruno Siqueira | Advogado em Curitiba" />
     <meta name="twitter:description" content="Escritório de advocacia em Curitiba, Centro. Direito do Trabalho, Penal Militar, Família, Cível e Criminal. Nota 5,0 no Google." />
-    <meta name="twitter:image" content="/hall.jpg" />
+    <meta name="twitter:image" content="https://advocaciabrunosiqueira.com/hall.jpg" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Schema: LocalBusiness -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "LegalService",
+      "@id": "https://advocaciabrunosiqueira.com/#business",
       "name": "Escritório de Advocacia Bruno Siqueira",
-      "image": "/hall.jpg",
+      "description": "Escritório de advocacia em Curitiba com atuação em Direito do Trabalho, Penal Militar, Família, Cível e Criminal.",
+      "image": "https://advocaciabrunosiqueira.com/hall.jpg",
+      "url": "https://advocaciabrunosiqueira.com",
+      "telephone": "+5541995817901",
+      "email": "contato@advocaciabrunosiqueira.com",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "R. Mal. Deodoro, 450, Edifício Maurício Caillet",
@@ -33,17 +58,60 @@
         "postalCode": "80010-010",
         "addressCountry": "BR"
       },
-      "telephone": "+5541995817901",
-      "url": "https://advocaciabrunosiqueira.com",
-      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -25.4284,
+        "longitude": -49.2733
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": "111"
+        "reviewCount": "111",
+        "bestRating": "5"
       },
-      "areaServed": ["Direito do Trabalho", "Direito Penal Militar", "Direito de Família", "Direito Cível", "Direito Criminal"]
+      "areaServed": [
+        {
+          "@type": "Service",
+          "name": "Direito do Trabalho",
+          "description": "Rescisão, verbas rescisórios, assédio moral e discriminatório, acidentes de trabalho."
+        },
+        {
+          "@type": "Service",
+          "name": "Direito Penal Militar",
+          "description": "Defesa em conselhos de disciplina, auditorias militares e processos na Justiça Militar."
+        },
+        {
+          "@type": "Service",
+          "name": "Direito de Família",
+          "description": "Divórcio, pensão alimentícia, guarda, administração de bens e inventário."
+        },
+        {
+          "@type": "Service",
+          "name": "Direito Cível",
+          "description": "Contratos, indenizações, responsabilidade civil e questões patrimoniais."
+        },
+        {
+          "@type": "Service",
+          "name": "Direito Criminal",
+          "description": "Defesa em inquéritos, ações penais, habeas corpus e recursos em segunda instância."
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/advocaciabrunosiqueira/",
+        "https://www.facebook.com/AdvocaciaBrunoSiqueira"
+      ]
     }
     </script>
+
+    <!-- Schema: FAQPage -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -114,6 +182,20 @@
           }
         }
       ]
+    }
+    </script>
+
+    <!-- Schema: Speakable (GEO / voice search) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://advocaciabrunosiqueira.com/#webpage",
+      "name": "Escritório de Advocacia Bruno Siqueira",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".speakable-hero", ".speakable-faq"]
+      }
     }
     </script>
   </head>

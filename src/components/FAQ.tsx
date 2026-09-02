@@ -43,7 +43,7 @@ export default function FAQ() {
 
   return (
     <section id="faq" className="py-24 md:py-32 bg-stripes-vertical">
-      <div ref={ref} className="mx-auto max-w-3xl px-6">
+      <div ref={ref} className="mx-auto max-w-3xl px-6 speakable-faq">
         <div
           className="transition-all duration-800"
           style={{

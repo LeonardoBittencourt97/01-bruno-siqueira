@@ -27,7 +27,7 @@ export default function Hero() {
           transitionTimingFunction: EASE_OUT,
         }}
       >
-        <div className="max-w-[680px]">
+        <div className="max-w-[680px] speakable-hero">
           <h1
             className="text-4xl md:text-6xl font-semibold leading-[1] mb-6"
             style={{

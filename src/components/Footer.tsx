@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="text-accent">BS</span> Bruno Siqueira
             </p>
             <p className="text-sm text-text-mute leading-relaxed">
-              Escritório de advocacia em Curitiba com atuação em Direito do
+              Escritório de advocacia em Curitiba. Atuação em Direito do
               Trabalho, Penal Militar, Família, Cível e Criminal.
             </p>
           </div>

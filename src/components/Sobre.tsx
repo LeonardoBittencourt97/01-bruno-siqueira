@@ -29,21 +29,21 @@ export default function Sobre() {
               Quem é o Dr. Bruno Siqueira
             </h2>
             <p className="text-base text-text-mute leading-relaxed mb-4">
-              Advogado inscrito na OAB/PR com atuação focada em quem realmente
-              precisa de orientação jurídica: pessoas que estão passando por
-              momentos difíceis e precisam de alguém que entenda o caso e
-              explique tudo com clareza.
+              Advogado inscrito na OAB/PR, com foco em quem precisa de
+              orientação jurídica de verdade. Pessoas passando por momentos
+              difíceis, que precisam de alguém que entenda o caso e explique
+              tudo sem complicação.
             </p>
             <p className="text-base text-text-mute leading-relaxed mb-4">
-              O escritório nasceu com uma ideia simples: oferecer atendimento
-              humano, sem juridiquês, com estratégia pensada para cada etapa
-              do processo. Do primeiro WhatsApp à decisão final, o cliente
-              acompanha tudo de perto.
+              O escritório foi criado para oferecer atendimento humano, sem
+              juridiquês, com estratégia pensada para cada etapa do processo.
+              Do primeiro WhatsApp até a decisão final, o cliente acompanha
+              tudo de perto.
             </p>
             <p className="text-base text-text-mute leading-relaxed">
-              Com 5,0 estrelas em avaliações reais no Google, o compromisso é
-              com a qualidade do trabalho e com a confiança de quem confia
-              o caso ao escritório.
+              Com nota 5,0 em mais de 111 avaliações reais no Google, o
+              trabalho fala por si. Cada caso recebe a mesma dedicação e
+              seriedade, independentemente do tamanho.
             </p>
           </div>
         </div>

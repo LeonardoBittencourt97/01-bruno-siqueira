@@ -2,7 +2,7 @@ import { useWordReveal } from '../hooks/useWordReveal'
 import { EASE_OUT } from '../lib/motion'
 
 const LINE_1 = 'Cada caso é um projeto de vida.'
-const LINE_2 = 'A gente cuida do seu com a seriedade que ele merece.'
+const LINE_2 = 'Nós cuidamos do seu com a seriedade que ele merece.'
 
 const allWords = [...LINE_1.split(' '), ...LINE_2.split(' ')]
 

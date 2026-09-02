@@ -23,8 +23,9 @@ export default function CTAFinal() {
             Pronto para resolver seu caso?
           </h2>
           <p className="text-base text-text-mute mb-8 max-w-[480px] mx-auto">
-            Entre em contato agora pelo WhatsApp e receba uma orientação
-            personalizada sobre a melhor estratégia para a sua situação.
+            Envie uma mensagem pelo WhatsApp e receba uma avaliação do seu
+            caso. Sem compromisso, com orientação clara sobre os próximos
+            passos.
           </p>
 
           <a

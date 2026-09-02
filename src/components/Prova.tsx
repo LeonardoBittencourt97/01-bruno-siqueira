@@ -56,7 +56,7 @@ export default function Prova() {
           }}
         >
           <h2 className="text-3xl md:text-4xl font-semibold mb-12 max-w-[680px]">
-            O que dizem nossos clientes
+            O que nossos clientes dizem
           </h2>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

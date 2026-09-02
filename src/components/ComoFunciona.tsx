@@ -4,18 +4,18 @@ import { EASE_OUT } from '../lib/motion'
 const STEPS = [
   {
     num: '01',
-    title: 'Você envia sua dúvida pelo WhatsApp',
-    desc: 'Entre em contato pelo WhatsApp ou ligação. Explique sua situação com o máximo de detalhes que puder.',
+    title: 'Você entra em contato pelo WhatsApp',
+    desc: 'Explique sua situação com o máximo de detalhes que puder. Pode ser por mensagem ou ligação.',
   },
   {
     num: '02',
-    title: 'Analisamos o caso e propomos a melhor estratégia',
-    desc: 'O Dr. Bruno analisa os documentos e fatos, e apresenta uma estratégia clara com prazos e expectativas.',
+    title: 'Analisamos e definimos a estratégia',
+    desc: 'O Dr. Bruno revisa os documentos e fatos, e apresenta um plano claro com prazos e possibilidades.',
   },
   {
     num: '03',
-    title: 'Acompanhamos você até a decisão final',
-    desc: 'De cada audiência a cada recurso, você é informado sobre cada etapa até o resultado do caso.',
+    title: 'Acompanhamos até a decisão final',
+    desc: 'Você é informado sobre cada etapa do processo, audiência e recurso, até o resultado.',
   },
 ]
 

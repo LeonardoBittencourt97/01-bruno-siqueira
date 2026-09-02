@@ -5,36 +5,36 @@ import { EASE_OUT } from '../lib/motion'
 
 const FAQ_ITEMS = [
   {
-    q: 'Atende quais áreas do direito?',
-    a: 'Atuamos em Direito do Trabalho, Penal Militar, Família, Cível e Criminal.',
+    q: 'Quais áreas do direito vocês atendem?',
+    a: 'Trabalhista, Penal Militar, Família, Cível e Criminal.',
   },
   {
-    q: 'Posso confiar no sigilo do meu caso?',
-    a: 'Sim, o sigilo profissional é regido pelo Estatuto da OAB e é absoluto. Tudo o que é compartilhado conosco permanece entre você e o escritório.',
+    q: 'O sigilo do caso é garantido?',
+    a: 'Sim. O sigilo profissional é obrigação do advogado, regida pelo Estatuto da OAB. Nada do que você compartilhar sai do escritório.',
   },
   {
-    q: 'Quanto custa a consulta?',
-    a: 'Avaliamos caso a caso, com transparência total antes de qualquer compromisso financeiro. Entre em contato para uma avaliação inicial.',
+    q: 'Quanto custa a primeira consulta?',
+    a: 'Cada caso é avaliado de forma individual. Antes de qualquer compromisso, o valor é combinado com transparência.',
   },
   {
-    q: 'Atende clientes de outros estados?',
-    a: 'Sim, atendemos online para clientes em qualquer lugar do Brasil. A tecnologia nos permite acompanhar processos em diferentes comarcas.',
+    q: 'Atendem clientes de outros estados?',
+    a: 'Sim. Fazemos atendimento online para qualquer estado do Brasil.',
   },
   {
-    q: 'Fica em qual bairro?',
-    a: 'Ficamos no Centro de Curitiba, no Edifício Maurício Caillet, R. Mal. Deodoro 450. Fácil acesso por transporte público e com estacionamento no próprio edifício.',
+    q: 'O escritório fica onde?',
+    a: 'Centro de Curitiba. Edifício Maurício Caillet, R. Mal. Deodoro 450. Fácil acesso por transporte público, com estacionamento no próprio prédio.',
   },
   {
     q: 'Tem estacionamento?',
-    a: 'Sim, o edifício possui estacionamento próprio para clientes.',
+    a: 'Sim. O edifício tem vaga para clientes.',
   },
   {
-    q: 'Como agendo uma consulta?',
-    a: 'Pelo WhatsApp (41) 99581-7901 ou por ligação no mesmo número. Basta enviar sua dúvida ou solicitar um horário.',
+    q: 'Como marco uma consulta?',
+    a: 'Pelo WhatsApp (41) 99581-7901 ou por ligação. Envie sua dúvida ou peça um horário.',
   },
   {
-    q: 'Atua mesmo em processo militar?',
-    a: 'Sim, Direito Penal Militar é uma das áreas principais do escritório. O Dr. Bruno tem experiência com conselhos de disciplina, auditorias militares e processos na Justiça Militar.',
+    q: 'Vocês realmente atuam com processo militar?',
+    a: 'Sim. Direito Penal Militar é uma das áreas principais do escritório. Trabalhamos com conselhos de disciplina, auditorias militares e processos na Justiça Militar.',
   },
 ]
 

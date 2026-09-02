@@ -2,10 +2,10 @@ import { useReveal } from '../hooks/useReveal'
 import { EASE_OUT } from '../lib/motion'
 
 const NUMBERS = [
-  { value: '5,0', label: 'Avaliação no Google' },
-  { value: '111+', label: 'Avaliações reais' },
+  { value: '5,0', label: 'Nota no Google' },
+  { value: '111+', label: 'Avaliações de clientes' },
   { value: '5', label: 'Áreas de atuação' },
-  { value: 'Curitiba', label: 'Centro - PR' },
+  { value: 'Curitiba', label: 'Centro, PR' },
 ]
 
 export default function Numeros() {

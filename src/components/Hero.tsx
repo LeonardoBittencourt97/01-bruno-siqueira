@@ -9,10 +9,17 @@ export default function Hero() {
   const { ref, visible } = useReveal(0.1)
 
   return (
-    <section className="relative min-h-screen flex items-center pt-32 pb-24 md:pt-40 md:pb-32 bg-stripes-diagonal">
+    <section className="relative min-h-screen flex items-center bg-stripes-diagonal md:bg-stripes-diagonal">
+      {/* Mobile: background image */}
+      <div
+        className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/hall.jpg)' }}
+      />
+      <div className="absolute inset-0 md:hidden bg-black/70" />
+
       <div
         ref={ref}
-        className="mx-auto w-full max-w-7xl px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center transition-all duration-800"
+        className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-32 pb-24 md:pt-40 md:pb-32 grid md:grid-cols-2 gap-12 md:gap-16 items-center transition-all duration-800"
         style={{
           opacity: visible ? 1 : 0,
           transform: visible ? 'translateY(0) blur(0)' : 'translateY(40px) blur(4px)',
@@ -22,7 +29,7 @@ export default function Hero() {
       >
         <div className="max-w-[680px]">
           <h1
-            className="text-5xl md:text-6xl font-semibold leading-[1] mb-6"
+            className="text-4xl md:text-6xl font-semibold leading-[1] mb-6"
             style={{
               textWrap: 'balance',
               background: 'linear-gradient(to right, #FFFFFF, #9B9B9B)',
@@ -36,7 +43,7 @@ export default function Hero() {
             complicação.
           </h1>
 
-          <p className="text-lg md:text-xl text-text-mute max-w-[680px] mb-8">
+          <p className="text-base md:text-xl text-text-mute max-w-[680px] mb-8">
             Escritório de advocacia em Curitiba com foco em Direito do Trabalho,
             Penal Militar, Família, Cível e Criminal. Atendimento humano do
             primeiro WhatsApp à última audiência.
@@ -68,7 +75,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative flex justify-center">
+        <div className="hidden md:flex relative justify-center">
           <div className="relative w-full max-w-[460px] aspect-[3/4] rounded-2xl overflow-hidden bg-bg-navy">
             <img
               src="/hall.jpg"

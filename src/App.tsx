@@ -7,8 +7,10 @@ import ComoFunciona from './components/ComoFunciona'
 import Prova from './components/Prova'
 import Numeros from './components/Numeros'
 import FAQ from './components/FAQ'
+import Contato from './components/Contato'
 import CTAFinal from './components/CTAFinal'
 import Footer from './components/Footer'
+import WhatsAppFloat from './components/WhatsAppFloat'
 
 export default function App() {
   return (
@@ -31,10 +33,12 @@ export default function App() {
         <Prova />
         <Numeros />
         <FAQ />
+        <Contato />
         <CTAFinal />
       </main>
 
       <Footer />
+      <WhatsAppFloat />
     </>
   )
 }

@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { label: 'Como funciona', href: '#como-funciona' },
   { label: 'Depoimentos', href: '#depoimentos' },
   { label: 'FAQ', href: '#faq' },
+  { label: 'Contato', href: '#contato' },
 ]
 
 const WHATSAPP_URL =
